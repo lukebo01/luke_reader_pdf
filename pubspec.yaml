@@ -1,0 +1,34 @@
+name: luke_reader_pdf
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  file_picker: ^5.2.2
+  archive: ^3.3.5
+  path_provider: ^2.0.14
+  syncfusion_flutter_pdfviewer: ^20.2.47
+  flutter_cached_pdfview: ^0.4.0
+  pdf_render: 1.4.12
+  http: ^0.13.5
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/invincible comics/
